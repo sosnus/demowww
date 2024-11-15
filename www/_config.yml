@@ -1,6 +1,9 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+include:
+  - assets/css/custom.css
+
 colors:
     gradient_left: "#155799"
     gradient_right: "#159957"
@@ -16,3 +19,4 @@ buttons:
       tar_title: Title
       tar_hide: true
       github_hide: true # hides "View on Github"
+# repository: twoj-login/moja-strona
